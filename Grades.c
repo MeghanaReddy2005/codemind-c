@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int phy,che,bio,math,comp,a;
-    scanf("%d%d%d%d%d",&phy,&che,&bio,&math,&comp);
-    a=(phy+che+bio+math+comp)/5;
+    int phy,che,bio,mat,com,a;
+    scanf("%d%d%d%d%d",&phy,&che,&bio,&mat,&com);
+    a=(phy+che+bio+mat+com)/5;
     if(a>=90)
     {
         printf("Grade A");
     }
-    else if(a>=80&&a<=90)
+    else if(a>80&&a<=90)
     {
         printf("Grade B");
     }
@@ -24,7 +24,7 @@ int main()
     {
         printf("Grade E");
     }
-    else 
+    else
     {
         printf("Grade F");
     }
