@@ -12,7 +12,7 @@ int main()
         q=q/10;
     }
     sn2=s*s;
-    q=sn2;
+ q=sn2;
     s=0;
     while(q!=0)
     {
@@ -29,4 +29,5 @@ int main()
     {
         printf("False");
     }
+    
 }
